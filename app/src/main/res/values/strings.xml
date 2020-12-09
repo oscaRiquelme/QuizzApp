@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <string name="bckground">Background_image</string>
+    <string name="Quizz_App">Legislación española y europea. Protección de datos y propiedad intelectual.</string>
+    <string name="welcome">¡BIENVENIDO!</string>
+    <string name="start">¡Empezar!</string>
+    <string name="nameHint">Introduce tu nombre por favor</string>
+    <string name="EnterName">¿Cómo te llamas?</string>
+    <string name="headerInfo">¿No crees saber lo suficiente?</string>
+    <string name="aprende">!Aprende más sobre el tema!</string>
+    <string name="flecha">flecha</string>
+    <string name="StartingProgressBar">1 de 8</string>
+    <string name="next">Siguiente</string>
+    <string name="Previous">Anterior</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FinalActivity"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:layout_marginTop="20sp"
+        android:layout_weight="0.5"
+        android:fontFamily="@font/aguafina_script"
+        android:text="¡Felicidades!"
+        android:textColor="@color/white"
+        android:textSize="56sp" />
+
+    <TextView
+        android:id="@+id/aciertoTv"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_margin="40sp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_white_bg"
+        android:gravity="center"
+        android:text="Jalabola"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/complementTv"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_margin="40sp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_white_bg"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/finButton"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_marginBottom="40sp"
+        android:layout_weight="0.5"
+        android:background="@drawable/more_rounded_white_bg"
+        android:text="¡Sácame de aquí!"
+        android:textSize="20sp" />
+
+</LinearLayout>
